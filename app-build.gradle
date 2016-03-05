@@ -12,17 +12,19 @@ def gitUrl = 'https://github.com/xxx/xxx.git'
 
 //groupId
 group = "xxx"
-//发布到JCenter上的项目名字
-JCenterName="xxx"
 
-//项目描述
-ProjectDescription=""
-
-//填写的一些基本信息
-developer_id=""
-developer_name=""
-developer_email=""
-
+ext {
+ //发布到JCenter上的项目名字
+ JCenterName="xxx"
+ 
+ //项目描述
+ ProjectDescription=""
+ 
+ //填写的一些基本信息
+ developer_id=""
+ developer_name=""
+ developer_email=""
+}
 
 android {
     compileSdkVersion 23
